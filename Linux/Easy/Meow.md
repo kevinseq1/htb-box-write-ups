@@ -37,12 +37,12 @@ Nmap done: 1 IP address (1 host up) scanned in 42.74 seconds
 ## Exploitation
 
 - We find the following port open:
- - `tcp port 23`: Running the telnet service
+	- `tcp port 23`: Running the telnet service
 - Telnet allows a user to run commands on a remote host (Sometimes without a password)
 - We try the following common user names:
- - `admin`
- - `administrator`
- - `root`
+	- `admin`
+	- `administrator`
+	- `root`
 - Entering the username as `root` with a blank password allows us to login as the root user on the remote machine.
 
 
