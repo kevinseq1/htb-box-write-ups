@@ -28,7 +28,7 @@ Nmap done: 1 IP address (1 host up) scanned in 20.19 seconds
 
 ## Exploitation
 
-- We find the following port(s) that are open:
+- We find the following port(s) open:
     - `135/tcp` msrpc
     - `139/tcp` netbios-ssn
     - `445/tcp` microsoft-ds
