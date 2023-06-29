@@ -1,6 +1,6 @@
 # Preignition
-
-- TL;DR:
+ 
+- TL;DR: Provide default username and password to an admin portal at `/admin.php` found on a web server using `gobuster` tool.
 
 ## Reconnaissance
 - Run an nmap scan:
