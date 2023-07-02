@@ -27,7 +27,7 @@ Nmap done: 1 IP address (1 host up) scanned in 84.24 seconds
     - `873/tcp` running the `rsync` service.
 - `rsync` allows to copy locally, to/from another host over any remote shell, or to/from a remote rsync daemon. 
 - We run the following command to list out the directories on the remote host using the `rsync` cli:
-    - `rsync --list-only 10.129.57.117`
+    - `rsync --list-only 10.129.57.117::`
 - Next we list the files inside the directory we got from the previous command:
     - `rsync --list-only 10.129.57.117::public`
 - We can then transfer the file from the `public` directory on the remote host to our local machine with the following command:
