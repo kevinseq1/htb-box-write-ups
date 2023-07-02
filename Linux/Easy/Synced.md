@@ -21,7 +21,7 @@ Nmap done: 1 IP address (1 host up) scanned in 84.24 seconds
 ```
 <br>
 
-- Exploitation
+## Exploitation
 
 - From the scan we find the following ports open:
     - `873/tcp` running the `rsync` service.
