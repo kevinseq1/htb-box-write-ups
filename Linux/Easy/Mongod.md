@@ -1,6 +1,6 @@
 # Mongod
 
-- TL;DR: Connect to a MongoDB server using the `mongo` cli tool without a username and passwoed and get the flag in one of the database->collections->documents
+- TL;DR: Connect to a MongoDB server using the `mongo` cli tool without a username and password and get the flag in one of the database->collections->documents
 
 ## Reconnaissance
 
