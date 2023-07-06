@@ -1,4 +1,4 @@
-# Explosion
+# Appointment
 
 - TL;DR: SQL Injection vulenrability in a web application hosted on a apache web server running on port 80.
 
