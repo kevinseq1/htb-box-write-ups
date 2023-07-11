@@ -1,6 +1,6 @@
 # Responder
 
-- TL;DR: 
+- TL;DR: LFI vulnerability on a webserver on a Windows machine. Exploiting the LFI using `Responder` allows us to capture the NetNTLMv2 hash. Next we use `John the Ripper` to crack the hash. Using the cracked hash for the `administrator` user we connect to the remote Windows machine using `evil-winrm`.
 
 ## Enumeration
 
